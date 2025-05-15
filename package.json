@@ -1,15 +1,23 @@
 {
     "name": "next-todo-server",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "server.js",
     "scripts": {
         "start": "node server.js"
+    },
+    "devDependencies": {
+        "json-server": "^0.17.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Koi-0/next-todo-server-api.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "description": "",
-    "dependencies": {
-        "json-server": "^1.0.0-beta.3"
-    }
+    "bugs": {
+        "url": "https://github.com/Koi-0/next-todo-server-api/issues"
+    },
+    "homepage": "https://github.com/Koi-0/next-todo-server-api#readme",
+    "description": ""
 }
